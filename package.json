@@ -7,6 +7,9 @@
     "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": "10.x"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://nxr_omarsanchez@bitbucket.org/nxr_omarsanchez/nxr_intranet_api.git"
