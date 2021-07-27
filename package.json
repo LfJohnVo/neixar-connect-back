@@ -1,0 +1,41 @@
+{
+  "name": "nxr_intranet_api",
+  "version": "1.0.0",
+  "description": "Proyecto de API RESTful con Node.js y Express para la Intranet de Neixar Systems",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://nxr_omarsanchez@bitbucket.org/nxr_omarsanchez/nxr_intranet_api.git"
+  },
+  "keywords": [
+    "neixar",
+    "intranet",
+    "api",
+    "nxr"
+  ],
+  "author": "Omar Alejandro Sánchez Tello, Jonathan Adrián Sánchez Tello, CIMA IT",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/nxr_omarsanchez/nxr_intranet_api#readme",
+  "dependencies": {
+    "all": "0.0.0",
+    "bcrypt": "^2.0.1",
+    "bcrypt-nodejs": "0.0.3",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-fileupload": "^1.1.9",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.22.1",
+    "mongoose": "^5.4.22",
+    "mongoose-pagination": "^1.0.0",
+    "mongoose-unique-validator": "^2.0.1",
+    "nodemailer": "^4.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  }
+}
